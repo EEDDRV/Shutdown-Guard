@@ -1,4 +1,7 @@
 # Shutdown Guard
+## About:
+### Prevent Windows from shutting down.
+---
 ## Usage:
 #### -U : Unlimited&nbsp;&nbsp;(Constantly attempting to abort the shutdown).
 ```bat
@@ -9,3 +12,5 @@ Shutdown-Guard.exe -U
 ```bat
 Shutdown-Guard.exe -L
 ```
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/EEDDRV/Shutdown-Guard)
+![GitHub](https://img.shields.io/github/license/EEDDRV/Shutdown-Guard)
