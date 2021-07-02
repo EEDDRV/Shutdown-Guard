@@ -87,3 +87,7 @@ int main(int argc, char **argv)
 	}
 	return 0;
 }
+/* How to compile!
+windres Shutdown-Guard.rc -o Shutdown-Guard.o
+g++ -o Shutdown-Guard.exe Shutdown-Guard.cpp Shutdown-Guard.o
+*/
