@@ -68,7 +68,7 @@ BEGIN
         BLOCK "040904b0"
         BEGIN
             VALUE "CompanyName", "None"
-            VALUE "FileDescription", "Shutdown-Guard executable (Written in C)."
+            VALUE "FileDescription", "Shutdown-Guard executable (Written in C++)."
             VALUE "FileVersion", "1.0.0.0"
             VALUE "InternalName", "Shutdown.exe"
             VALUE "LegalCopyright", "Copyright (C) 2021 Ethan Dureus"

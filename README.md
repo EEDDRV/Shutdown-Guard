@@ -1,6 +1,6 @@
 # Shutdown Guard
 ## About:
-### Prevent Windows from shutting down.
+### An application that prevent Windows from shutting down.
 ---
 ## Usage:
 #### -U : Unlimited&nbsp;&nbsp;(Constantly attempting to abort the shutdown).
