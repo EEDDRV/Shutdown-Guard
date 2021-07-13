@@ -51,7 +51,7 @@ int main(int argc, char* argv[])
 	{
 		if (argv[1][1] == 'h' || argv[1][1] == 'H')// || argv[1] == "/h" || argv[1] == "-H" || argv[1] == "/H")
 		{
-			printf("Usage:\n-U : Unlimited\t(Constantly attempting to abort the shutdown.)\n-L : Limited\t(Closes after the first successful attempt to abort the shutdown.)");
+			printf("Usage:\n-U : Unlimited\t(Constantly attempting to abort the shutdown.)\n-L : Limited\t(Closes after the first successful attempt to abort the shutdown.)\n-E : Efficiency\t(Constantly attempting to abort the shutdown every 0.001 of a second.)");
 		}
 		else if (argv[1][1] == 'U' || argv[1][1] == 'u')
 		{
@@ -93,7 +93,7 @@ int main(int argc, char* argv[])
 	}
 	else
 	{
-		printf("Usage:\n-U : Unlimited\t(Constantly attempting to abort the shutdown.)\n-L : Limited\t(Closes after the first successful attempt to abort the shutdown.)");
+		printf("Usage:\n-U : Unlimited\t(Constantly attempting to abort the shutdown.)\n-L : Limited\t(Closes after the first successful attempt to abort the shutdown.)\n-E : Efficiency\t(Constantly attempting to abort the shutdown every 0.001 of a second.)");
 	}
 	return 0;
 }
