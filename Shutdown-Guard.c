@@ -98,6 +98,9 @@ int main(int argc, char* argv[])
 	return 0;
 }
 /* How to compile!
+wget https://raw.githubusercontent.com/clickteam-plugin/Download/master/resource.h
+wget https://raw.githubusercontent.com/microsoft/Windows-classic-samples/master/Samples/Win7Samples/winui/tsf/tsfapp/winres.h
+
 windres Shutdown-Guard.rc -o Shutdown-Guard.o
 gcc -o Shutdown-Guard.exe Shutdown-Guard.c Shutdown-Guard.o
 */
