@@ -75,9 +75,20 @@ int main(int argc, char* argv[])
 				}
 			}
 		}
+		// Now add an 'Efficiency' option.
+		else if (argv[1][1] == 'E' || argv[1][1] == 'e')
+		{
+			printf("Running (in efficiency mode)...\n");
+			while (1)
+			{
+				PreventSystemShutdown();
+				// Now pause for one thousandth of a second.
+				Sleep(1);
+			}
+		}
 		else
 		{
-			printf("Usage:\n-U : Unlimited\t(Constantly attempting to abort the shutdown.)\n-L : Limited\t(Closes after the first successful attempt to abort the shutdown.)");
+			printf("Usage:\n-U : Unlimited\t(Constantly attempting to abort the shutdown.)\n-L : Limited\t(Closes after the first successful attempt to abort the shutdown.)\n-E : Efficiency\t(Constantly attempting to abort the shutdown every 0.001 of a second.)");
 		}
 	}
 	else
