@@ -18,8 +18,7 @@ Shutdown-Guard.exe -L
 Shutdown-Guard.exe -E
 ```
 ---
-## Note:
-### This application is created in both C and C++.
+### Note: This application is created in both C and C++.
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/EEDDRV/Shutdown-Guard)
 ![GitHub](https://img.shields.io/github/license/EEDDRV/Shutdown-Guard)
 ---
